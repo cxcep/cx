@@ -28,7 +28,7 @@ jobs:
         step='${{ secrets.STEP }}'
         
         python3 main.py <<EOF
-        ${sckey}
+        ${Secret}
         ${user}
         ${pwd}
         ${step}
